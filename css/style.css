@@ -1,0 +1,31 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    color: white;
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+}
+.main-box h2{
+    margin-bottom: 20px;
+}
+#user_pdw{
+    text-align: center;
+    border: 5px solid white;
+    padding: 5px;
+}
