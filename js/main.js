@@ -10,8 +10,10 @@ console.log(typeof lastName);
 let favColor = prompt (`Inserisci il tuo colore preferito`);
 console.log(typeof favColor);
 
-// Genera la password concatenando i valori delle variabili dichiarate
-let user_pdw = firstName + lastName + favColor;
+// Genera la password concatenando i valori delle variabili dichiarate e aggiungendo 76
+const bool76class = `76`;
+
+let user_pdw = firstName + lastName + favColor + bool76class;
 console.log(user_pdw);
 
 // Visualizza la password in HTML
